@@ -11,4 +11,4 @@ COPY --from=BUILD_IMAGE JenP/target/WebApp.war /usr/local/tomcat/webapps/ROOT.wa
 
 EXPOSE 8080
 CMD ["catalina.sh", "run"]
-##33
+##3
